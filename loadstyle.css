@@ -1,0 +1,15 @@
+.loadingSpinner {
+  pointer-events: none;
+  width: 3em;
+  height: 3em;
+  border: 0.4em solid transparent;
+  border-color: #ddd;
+  border-top-color: blue;
+  border-radius: 50%;
+  animation: spinner 1s linear infinite;
+}
+@keyframes spinner {
+  100% {
+    transform: rotate(360deg);
+  }
+}
