@@ -7,11 +7,9 @@
   border-top-color: blue;
   border-radius: 50%;
   animation: spinner 1s linear infinite;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 @keyframes spinner {
   100% {
