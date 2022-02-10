@@ -28,11 +28,12 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
-
+  
   <title>passmanager</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="loadstyle.css">
 </head>
-<body bgcolor="black" background="https://raw.githubusercontent.com/Redskull-127/Manager/web/ezgif-7-15a9e428e2.gif">
+<body bgcolor="black" >
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -40,6 +41,7 @@
 <!--   <marquee direction="left" height="100px" style="color:white;font-size:30px;margin-top:250px;">
     Please Wait...
   </marquee> -->
+  <div class="loadingSpinner"></div>
   <script>
     var serviceWorkerVersion = '1806337395';
     var scriptLoaded = false;
